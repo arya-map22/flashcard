@@ -1,0 +1,53 @@
+:host {
+  width: 66.6667%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  border: 2px solid gray;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 700px) {
+  :host {
+    width: 500px;
+  }
+}
+
+#content {
+  height: 15rem;
+  width: 100%;
+  margin: 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  #content {
+    width: 75%;
+    margin: 1rem auto;
+  }
+}
+
+#action {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: none;
+  width: 33.3333%;
+  text-align: center;
+  padding: 0.25rem;
+  border: 1px solid black;
+  margin: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+button:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: grey;
+}

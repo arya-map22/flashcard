@@ -1,0 +1,12 @@
+:host {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+div {
+  height: 1.25rem;
+  background-color: grey;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+}
