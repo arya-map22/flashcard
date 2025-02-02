@@ -1,4 +1,9 @@
-<progress [value]="currentIndex() + 1" [max]="cards.length"></progress>
+<div id="progress">
+  <div [style.width]="((currentIndex() + 1) / cards.length) * 90 + '%'">
+    {{ ((currentIndex() + 1) / cards.length) * 100 }}%
+  </div>
+  <span>{{ currentIndex() + 1 }} of {{ cards.length }}</span>
+</div>
 <div id="content">
   <p>
     @if (showAnswer()) {

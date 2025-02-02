@@ -14,8 +14,25 @@
   }
 }
 
-progress {
+#progress {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#progress div {
+  background-color: gray;
+  height: 1.25rem;
+  border-radius: 0.25rem;
+  color: #f8fafc;
+  text-align: center;
+}
+
+#progress span {
+  display: inline-block;
+  width: 10%;
+  text-align: right;
+  vertical-align: center;
 }
 
 #content {
@@ -25,7 +42,7 @@ progress {
   display: flex;
 }
 
-p {
+#content p {
   text-align: center;
   font-size: 24px;
 }
